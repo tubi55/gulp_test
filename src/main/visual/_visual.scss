@@ -1,0 +1,13 @@
+#visual {
+    width: 100%; height: calc(100vh - 100px); 
+    background: hotpink; 
+    display: flex; justify-content: center; align-items: center; 
+    font: bold 10vw/1 "arial"; color: #fff;
+}
+
+@media screen and (max-width: $tablet){
+
+}
+@media screen and (max-width: $mobile){
+    
+}

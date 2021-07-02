@@ -1,0 +1,36 @@
+#header {
+    width: 100%; border-bottom: 1px solid #ddd;
+
+    .inner {
+        width: 1180px; height: 100px; margin: 0px auto; position: relative;
+
+        h1 {
+            position: absolute; bottom: 15px; left: 0px;
+
+            a {
+                font: bold 24px/1 "arial"; color: #333;
+            }
+        }
+
+        #gnb {
+            position: absolute; bottom: 0px; right: 0px;
+
+            >li {
+                float: left;
+
+                >a {
+                    display: inline-block;  padding: 15px 25px;  font: bold 15px/1 "arial"; color: #444; 
+
+                    &:hover { background: #444; color: #fff;}
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $tablet){
+
+}
+@media screen and (max-width: $mobile){
+    
+}
